@@ -1,0 +1,13 @@
+.borderless-modal-content {
+    border: none !important;
+}
+.modal.custom-slide-in {
+    opacity: 0;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+  }
+  
+  .modal.custom-slide-in.show {
+    opacity: 1;
+    transform: translateX(0);
+  }
